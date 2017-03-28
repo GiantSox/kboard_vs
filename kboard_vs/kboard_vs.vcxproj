@@ -49,22 +49,22 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="C:\Users\David\Desktop\of_v0.9.8_vs_release\libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
+    <Import Project="..\..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
     <Import Project="..\..\..\..\addons\ofxKinectCommonBridge\ofxKinectCommonBridge.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="C:\Users\David\Desktop\of_v0.9.8_vs_release\libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
+    <Import Project="..\..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
     <Import Project="..\..\..\..\addons\ofxKinectCommonBridge\ofxKinectCommonBridge.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="C:\Users\David\Desktop\of_v0.9.8_vs_release\libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
+    <Import Project="..\..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
     <Import Project="..\..\..\..\addons\ofxKinectCommonBridge\ofxKinectCommonBridge.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="C:\Users\David\Desktop\of_v0.9.8_vs_release\libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
+    <Import Project="..\..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
     <Import Project="..\..\..\..\addons\ofxKinectCommonBridge\ofxKinectCommonBridge.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
@@ -100,9 +100,9 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\components;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\core;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\libs;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\libs\ofxSmartFont;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\themes;
-C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxKinectCommonBridge\src;
-C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\addons\ofxDatGui\src;..\..\..\..\addons\ofxDatGui\src\components;..\..\..\..\addons\ofxDatGui\src\core;..\..\..\..\addons\ofxDatGui\src\libs;..\..\..\..\addons\ofxDatGui\src\libs\ofxSmartFont;..\..\..\..\addons\ofxDatGui\src\themes;
+..\..\..\..\addons\ofxKinectCommonBridge\src;
+..\..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
     <Link>
@@ -110,7 +110,7 @@ C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxKinectCommonBridge\libs\Ki
       <SubSystem>Console</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\lib\windows\vs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\lib\windows\vs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
     </PostBuildEvent>
@@ -127,9 +127,9 @@ xcopy /e /i /y "..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\li
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\components;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\core;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\libs;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\libs\ofxSmartFont;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\themes;
-C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxKinectCommonBridge\src;
-C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\addons\ofxDatGui\src;..\..\..\..\addons\ofxDatGui\src\components;..\..\..\..\addons\ofxDatGui\src\core;..\..\..\..\addons\ofxDatGui\src\libs;..\..\..\..\addons\ofxDatGui\src\libs\ofxSmartFont;..\..\..\..\addons\ofxDatGui\src\themes;
+..\..\..\..\addons\ofxKinectCommonBridge\src;
+..\..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
@@ -138,9 +138,14 @@ C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxKinectCommonBridge\libs\Ki
       <SubSystem>Console</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\lib\windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Command>xcopy /e /i /y "$(ProjectDir)..\..\..\..\export\vs\*.dll" "$(ProjectDir)bin"
+xcopy /e /i /y "..\..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\lib\windows\*.dll" "$(ProjectDir)bin"
+%(Command)</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -149,9 +154,9 @@ C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxKinectCommonBridge\libs\Ki
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\components;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\core;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\libs;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\libs\ofxSmartFont;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\themes;
-C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxKinectCommonBridge\src;
-C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\addons\ofxDatGui\src;..\..\..\..\addons\ofxDatGui\src\components;..\..\..\..\addons\ofxDatGui\src\core;..\..\..\..\addons\ofxDatGui\src\libs;..\..\..\..\addons\ofxDatGui\src\libs\ofxSmartFont;..\..\..\..\addons\ofxDatGui\src\themes;
+..\..\..\..\addons\ofxKinectCommonBridge\src;
+..\..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
@@ -174,9 +179,9 @@ C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxKinectCommonBridge\libs\Ki
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\components;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\core;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\libs;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\libs\ofxSmartFont;C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxDatGui\src\themes;
-C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxKinectCommonBridge\src;
-C:\Users\David\Desktop\of_v0.9.8_vs_release\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\addons\ofxDatGui\src;..\..\..\..\addons\ofxDatGui\src\components;..\..\..\..\addons\ofxDatGui\src\core;..\..\..\..\addons\ofxDatGui\src\libs;..\..\..\..\addons\ofxDatGui\src\libs\ofxSmartFont;..\..\..\..\addons\ofxDatGui\src\themes;
+..\..\..\..\addons\ofxKinectCommonBridge\src;
+..\..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
     <Link>
