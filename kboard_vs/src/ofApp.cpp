@@ -2,7 +2,6 @@
 
 //--------------------------------------------------------------
 void ofApp::setup() {
-
 	kinect.initSensor();
 	//kinect.initIRStream(640, 480);
 	kinect.initColorStream(640, 480, true);

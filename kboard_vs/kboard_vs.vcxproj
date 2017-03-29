@@ -229,6 +229,7 @@ xcopy /e /i /y "..\..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge
     <ClInclude Include="..\..\..\..\addons\ofxDatGui\src\themes\ofxDatGuiThemes.h" />
     <ClInclude Include="..\..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include\KinectCommonBridgeLib.h" />
     <ClInclude Include="..\..\..\..\addons\ofxKinectCommonBridge\src\ofxKinectCommonBridge.h" />
+    <ClInclude Include="src\button.h" />
     <ClInclude Include="src\ofApp.h" />
   </ItemGroup>
   <ItemGroup>

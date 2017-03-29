@@ -137,6 +137,9 @@
     <ClInclude Include="..\..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include\KinectCommonBridgeLib.h">
       <Filter>addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include</Filter>
     </ClInclude>
+    <ClInclude Include="src\button.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="icon.rc" />

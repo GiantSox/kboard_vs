@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxKinectCommonBridge.h"
+#include "button.h"
 
 class ofApp : public ofBaseApp{
 
