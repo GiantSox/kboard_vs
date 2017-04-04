@@ -24,6 +24,14 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 
 
+
 		ofxKinectCommonBridge kinect;
-		
+		map<string, ofPoint> joints;
+
+
+		Button one = Button(200, 100, "harder.wav");
+		Button better = Button(300, 100, "better.wav");
+		Button faster = Button(400, 100, "faster.wav");
+		Button stronger = Button(500, 100, "stronger.wav");
+
 };
